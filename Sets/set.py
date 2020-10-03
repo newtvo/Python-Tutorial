@@ -28,7 +28,7 @@ print(s1 & s2)
 print(s1.intersection(s2))
 
 print(s1.union(s2))
-print(s1.difference(s2))
+print(s1.difference(s2)) # có trong 1 mà không có trong s2
 
 print(set([4]).issubset(s2))
 print(set([3, 4, 6, 5]).issuperset(s2))
